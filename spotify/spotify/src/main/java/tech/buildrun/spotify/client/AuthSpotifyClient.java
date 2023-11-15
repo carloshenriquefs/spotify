@@ -5,8 +5,6 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import java.awt.*;
-
 @FeignClient(
         name = "AuthSpotifyClient",
         url = "https://accounts.spotify.com"
